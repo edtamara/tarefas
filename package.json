@@ -1,0 +1,30 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "Gerenciador de tarefas",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edtamara/tarefas.git"
+  },
+  "author": "Edison Tâmara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edtamara/tarefa1409/issues"
+  },
+  "homepage": "https://github.com/edtamara/tarefa1409#readme",
+  "dependencies": {
+  	"express":"*",
+  	"body-parser": "*",
+    "ejs": "^2.4.2",
+    "morgan":"*",
+    "redis":"*"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }, 
+  "scripts":{
+   "start": "node app.js",
+   "test": "node app.js"
+  }
+}
